@@ -1,0 +1,362 @@
+.bg-rectangle-icon4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  width: 1525px;
+  height: 140px;
+  opacity: 0.5;
+}
+.convo,
+.noodle-house2 {
+  position: absolute;
+  top: 66px;
+  left: 151px;
+  display: inline-block;
+  width: 1242px;
+  height: 48px;
+}
+.noodle-house2 {
+  top: 18px;
+  color: var(--color-black);
+  width: 1324px;
+}
+.noodle-house-icon {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  border-radius: var(--br-11xl);
+  width: 119px;
+  height: 110px;
+  object-fit: cover;
+}
+.chats-2 {
+  position: absolute;
+  top: 259px;
+  left: 0;
+  width: 1525px;
+  height: 140px;
+}
+.convo1,
+.kapehan-nindo5 {
+  position: absolute;
+  top: 66px;
+  left: 151px;
+  display: inline-block;
+  width: 1223px;
+  height: 48px;
+}
+.kapehan-nindo5 {
+  top: 18px;
+  color: var(--color-black);
+  width: 1299px;
+}
+.chats-1 {
+  position: absolute;
+  top: 104px;
+  left: 0;
+  width: 1525px;
+  height: 140px;
+}
+.edit,
+.messages6 {
+  position: absolute;
+  top: 0;
+  color: var(--color-black);
+  width: 268px;
+  height: 104px;
+}
+.edit {
+  left: 1247px;
+  font-size: var(--font-size-17xl);
+  text-align: right;
+  display: flex;
+  align-items: center;
+}
+.messages6 {
+  left: 1px;
+  font-size: var(--font-size-29xl);
+  font-family: var(--font-poetsenone);
+  display: inline-block;
+}
+.chats-2-parent,
+.footer-child22 {
+  position: absolute;
+  top: 200px;
+  left: 101px;
+  width: 1525px;
+  height: 399px;
+}
+.footer-child22 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro-100);
+  width: 1728px;
+  height: 371px;
+  opacity: 0.6;
+}
+.get-exclusive-deals6,
+.important-links6,
+.legal-pages5 {
+  position: absolute;
+  top: 81px;
+  left: 1404px;
+  font-size: var(--font-size-lg);
+  line-height: 43px;
+}
+.get-exclusive-deals6,
+.legal-pages5 {
+  left: 1152px;
+}
+.get-exclusive-deals6 {
+  left: 627px;
+}
+.email-policy6 {
+  text-decoration: underline;
+}
+.we-wont-spam-container6 {
+  position: absolute;
+  top: 202px;
+  left: 657px;
+  font-size: var(--font-size-smi);
+  line-height: 43px;
+}
+.footer-child23 {
+  position: absolute;
+  top: 371px;
+  left: 0;
+  background-color: var(--color-gray-200);
+  width: 1728px;
+  height: 73px;
+}
+.privacy-policy-terms6 {
+  position: absolute;
+  top: 396px;
+  left: 1348px;
+  color: var(--color-white);
+  white-space: pre-wrap;
+}
+.bilineo-copyright-20246 {
+  position: absolute;
+  top: 397px;
+  left: 116px;
+  color: var(--color-white);
+}
+.get-help6 {
+  margin: 0;
+}
+.get-help-add-your-container6,
+.terms-and-conditions-container6 {
+  position: absolute;
+  top: 120px;
+  left: 1404px;
+  text-decoration: underline;
+  line-height: 43px;
+  color: var(--color-black);
+  display: inline-block;
+  width: 233px;
+  height: 170px;
+}
+.terms-and-conditions-container6 {
+  left: 1152px;
+  width: 177px;
+  height: 86px;
+}
+.company-490039-445-container6 {
+  position: absolute;
+  top: 225px;
+  left: 100px;
+  color: var(--color-black);
+}
+.footer-child24,
+.footer-child25 {
+  position: absolute;
+  top: 147px;
+  left: 627px;
+  border-radius: var(--br-101xl);
+  background-color: var(--color-gainsboro-100);
+  width: 381px;
+  height: 59px;
+}
+.footer-child25 {
+  left: 941px;
+  background-color: var(--color-steelblue);
+  width: 171px;
+}
+.youremailgmailcom6 {
+  position: absolute;
+  top: 155px;
+  left: 657px;
+  line-height: 43px;
+  color: var(--color-gray-900);
+}
+.subscribe7 {
+  position: absolute;
+  top: 165px;
+  left: 983px;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--color-white);
+  display: inline-block;
+  width: 106px;
+  height: 24px;
+}
+.facebook-icon6,
+.instagram-icon6,
+.tiktok-icon6 {
+  position: absolute;
+  top: 256px;
+  left: 652px;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+.instagram-icon6,
+.tiktok-icon6 {
+  left: 711px;
+}
+.tiktok-icon6 {
+  left: 770px;
+}
+.bilineo13 {
+  position: absolute;
+  top: 110px;
+  left: 94px;
+  font-size: var(--font-size-77xl);
+  font-family: var(--font-poetsenone);
+  color: var(--color-black);
+  cursor: pointer;
+}
+.footer6,
+.nav-bar-child4 {
+  position: absolute;
+  left: 0;
+  width: 1728px;
+}
+.footer6 {
+  top: 881px;
+  height: 444px;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-200);
+}
+.nav-bar-child4 {
+  top: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-goldenrod-100);
+  height: 131px;
+}
+.bilineo14,
+.cloche-1-icon6 {
+  position: absolute;
+  cursor: pointer;
+}
+.bilineo14 {
+  top: 1px;
+  left: 0;
+  font-size: var(--font-size-29xl);
+  font-family: var(--font-poetsenone);
+}
+.cloche-1-icon6 {
+  top: 8px;
+  left: 1157px;
+  width: 53px;
+  height: 44px;
+  object-fit: cover;
+}
+.orders7,
+.stores6 {
+  position: absolute;
+  top: 17px;
+  left: 1017px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.stores6 {
+  left: 867px;
+}
+.span6 {
+  color: var(--color-white);
+  white-space: pre-wrap;
+}
+.home6 {
+  position: absolute;
+  top: 17px;
+  left: 535px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.group-child50 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-101xl);
+  background-color: var(--color-gray-200);
+  width: 234px;
+  height: 61px;
+}
+.kerry-oki5 {
+  position: absolute;
+  top: 0;
+  left: 42.4px;
+  font-weight: 500;
+  display: inline-block;
+  width: 138.8px;
+}
+.male-user-icon6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-12xs);
+  width: 31px;
+  height: 27px;
+  object-fit: cover;
+}
+.kerry-oki-parent1 {
+  position: absolute;
+  top: 17px;
+  left: 26.4px;
+  width: 181.2px;
+  height: 27px;
+}
+.rectangle-parent57 {
+  position: absolute;
+  top: 0;
+  left: 1289px;
+  width: 234px;
+  height: 61px;
+  cursor: pointer;
+  color: var(--color-white);
+}
+.messages7 {
+  position: absolute;
+  top: 17px;
+  left: 682px;
+  font-weight: 500;
+}
+.bilineo-parent4,
+.nav-bar6 {
+  position: absolute;
+  top: 37px;
+  left: 102px;
+  width: 1523px;
+  height: 61px;
+}
+.nav-bar6 {
+  top: 0;
+  left: 0;
+  width: 1728px;
+  height: 131px;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.messages-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1325px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-500);
+  font-family: var(--font-poppins);
+}

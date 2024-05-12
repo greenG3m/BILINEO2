@@ -1,0 +1,189 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="initial-scale=1, width=device-width" />
+   <title>Bilineo | {{title}} </title>
+
+   <link rel="stylesheet" type="text/css" href="{% static 'global.css' %}" />
+   <link rel="stylesheet" type="text/css" href="{% static 'messages_page.css' %}" /> 
+   <link
+     rel="stylesheet"
+     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+   />
+
+   <style>
+     @font-face {
+       font-family: "PoetsenOne";
+       src: url("PoetsenOne-Regular.ttf");
+       font-weight: 400;
+     }
+   </style>
+ </head>
+  <body>
+    <div class="messages-page">
+      <div class="chats-2-parent">
+        <div class="chats-2">
+          <img
+            class="bg-rectangle-icon4"
+            alt=""
+            src="{% static 'bg-rectangle.svg' %}"
+          />
+
+          <div class="convo">Ready na po ang order nyo ma...</div>
+          <b class="noodle-house2">Noodle House</b>
+          <img
+            class="noodle-house-icon"
+            alt=""
+            src="{% static 'noodle-house@2x.png' %}"
+          />
+        </div>
+        <div class="chats-1">
+          <img
+            class="bg-rectangle-icon4"
+            alt=""
+            src="{% static 'bg-rectangle.svg' %}"
+          />
+
+          <img
+            class="noodle-house-icon"
+            alt=""
+            src="{% static 'kapehan-nindo@2x.png' %}"
+          />
+
+          <div class="convo1">Nasa xavier hall na po ako...</div>
+          <b class="kapehan-nindo5">Kapehan Nindo</b>
+        </div>
+        <div class="edit">Edit</div>
+        <div class="messages6">Messages</div>
+      </div>
+      <div class="footer6">
+        <div class="footer-child22"></div>
+        <b class="important-links6">Important Links</b>
+        <b class="legal-pages5">Legal Pages</b>
+        <b class="get-exclusive-deals6">Get Exclusive Deals in your Inbox</b>
+        <div class="we-wont-spam-container6">
+          we wont spam, read our
+          <span class="email-policy6">email policy</span>
+        </div>
+        <div class="footer-child23"></div>
+        <div class="privacy-policy-terms6">Privacy Policy Terms Pricing</div>
+        <div class="bilineo-copyright-20246">
+          BILINEO Copyright 2024, All Rights Reserved.
+        </div>
+        <div class="get-help-add-your-container6">
+          <p class="get-help6">Get help</p>
+          <p class="get-help6">Add your restaurant</p>
+          <p class="get-help6">Sign up to deliver</p>
+          <p class="get-help6">Create a business account</p>
+        </div>
+        <div class="terms-and-conditions-container6">
+          <p class="get-help6">Terms and conditions</p>
+          <p class="get-help6">Privacy</p>
+        </div>
+        <div class="company-490039-445-container6">
+          <p class="get-help6">Company # 490039-445, Registered with</p>
+          <p class="get-help6">House of companies.</p>
+        </div>
+        <div class="footer-child24"></div>
+        <div class="footer-child25"></div>
+        <div class="youremailgmailcom6">youremail@gmail.com</div>
+        <div class="subscribe7">Subscribe</div>
+        <img class="facebook-icon6" alt="" src="{% static 'facebook@2x.png' %}" />
+
+        <img class="instagram-icon6" alt="" src="{% static 'instagram@2x.png' %}" />
+
+        <img class="tiktok-icon6" alt="" src="{% static 'tiktok@2x.png' %}" />
+
+        <div class="bilineo13" id="bILINEOText">BILINEO.</div>
+      </div>
+      <div class="nav-bar6" data-scroll-to="navBarContainer">
+        <div class="nav-bar-child4"></div>
+        <div class="bilineo-parent4">
+          <div class="bilineo14" id="bILINEOText">BILINEO.</div>
+          <img
+            class="cloche-1-icon6"
+            alt=""
+            src="{% static 'cloche-1@2x.png' %}"
+            id="cloche1Image"
+          />
+
+          <div class="orders7" id="ordersText">Orders</div>
+          <div class="stores6" id="storesText">Stores</div>
+          <div class="home6" id="homeText">
+            <span>Home </span>
+            <span class="span6"> </span>
+          </div>
+          <div class="rectangle-parent57" id="groupContainer">
+            <div class="group-child50"></div>
+            <div class="kerry-oki-parent1">
+              <div class="kerry-oki5">Kerry Oki</div>
+              <img
+                class="male-user-icon6"
+                alt=""
+                src="{% static 'male-user@2x.png' %}"
+              />
+            </div>
+          </div>
+          <div class="messages7">Messages</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var bILINEOText = document.getElementById("bILINEOText");
+      if (bILINEOText) {
+        bILINEOText.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='navBarContainer']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var bILINEOText = document.getElementById("bILINEOText");
+      if (bILINEOText) {
+        bILINEOText.addEventListener("click", function (e) {
+          window.location.href = "../home_desktop.html";
+        });
+      }
+      
+      var cloche1Image = document.getElementById("cloche1Image");
+      if (cloche1Image) {
+        cloche1Image.addEventListener("click", function (e) {
+          window.location.href = "../tray_page.html";
+        });
+      }
+      
+      var ordersText = document.getElementById("ordersText");
+      if (ordersText) {
+        ordersText.addEventListener("click", function (e) {
+          window.location.href = "../orders_page.html";
+        });
+      }
+      
+      var storesText = document.getElementById("storesText");
+      if (storesText) {
+        storesText.addEventListener("click", function (e) {
+          window.location.href = "../store_page.html";
+        });
+      }
+      
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "../home_desktop.html";
+        });
+      }
+      
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "../profile_page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

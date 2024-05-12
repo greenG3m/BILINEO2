@@ -1,0 +1,253 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="initial-scale=1, width=device-width" />
+   <title>Bilineo | {{title}} </title>
+
+   <link rel="stylesheet" type="text/css" href="{% static 'global.css' %}" />
+   <link rel="stylesheet" type="text/css" href="{% static 'tray_page.css' %}" /> 
+   <link
+     rel="stylesheet"
+     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+   />
+
+   <style>
+     @font-face {
+       font-family: "PoetsenOne";
+       src: url("PoetsenOne-Regular.ttf");
+       font-weight: 400;
+     }
+   </style>
+ </head>
+  <body>
+    <div class="tray-page">
+      <div class="tray-items-2-parent">
+        <div class="tray-items-21">
+          <img
+            class="bg-rectangle-icon2"
+            alt=""
+            src="{% static 'bg-rectangle1.svg' %}"
+          />
+
+          <div class="subtotal4">
+            <b class="php-1891">Php. 189</b>
+            <div class="subtotal5">Subtotal</div>
+          </div>
+          <b class="php-201">Php. 20</b>
+          <div class="food-item-24">
+            <b class="php-702">Php. 70</b>
+            <div class="x22">x2</div>
+            <div class="php-352">Php. 35</div>
+            <div class="food-item-25">Food Item #2</div>
+          </div>
+          <div class="food-item-14">
+            <b class="php-702">Php. 99</b>
+            <div class="x22">x1</div>
+            <div class="php-352">Php. 99</div>
+            <div class="food-item-25">Food Item #1</div>
+          </div>
+          <b class="shop-21"> SHOP #2</b>
+          <div class="delivery-option2">
+            <div class="fg-rectangle2"></div>
+            <div class="checkbox6"></div>
+            <div class="checkbox7"></div>
+            <div class="delivery2">Delivery</div>
+            <div class="pick-up2">Pick Up</div>
+            <div class="delivery-option-inner"></div>
+            <div class="min1">5 min.</div>
+          </div>
+        </div>
+        <div class="tray-items-11">
+          <img
+            class="bg-rectangle-icon3"
+            alt=""
+            src="{% static 'bg-rectangle2.svg' %}"
+          />
+
+          <div class="subtotal6">
+            <b class="php-1891">Php. 169</b>
+            <div class="subtotal5">Subtotal</div>
+          </div>
+          <div class="food-item-24">
+            <b class="php-702">Php. 70</b>
+            <div class="x22">x2</div>
+            <div class="php-352">Php. 35</div>
+            <div class="food-item-25">Food Item #2</div>
+          </div>
+          <div class="food-item-14">
+            <b class="php-702">Php. 99</b>
+            <div class="x22">x1</div>
+            <div class="php-352">Php. 99</div>
+            <div class="food-item-25">Food Item #1</div>
+          </div>
+          <b class="shop-21"> SHOP #1</b>
+          <div class="delivery-option3">
+            <div class="fg-rectangle2"></div>
+            <div class="checkbox10"></div>
+            <div class="checkbox11"></div>
+            <div class="delivery2">Delivery</div>
+            <div class="pick-up2">Pick Up</div>
+            <div class="delivery-option-inner"></div>
+            <div class="eta1">ETA</div>
+          </div>
+        </div>
+        <div class="payment-method">
+          <div class="checkout-button"></div>
+          <div class="gcash">GCash</div>
+          <div class="checkbox12"></div>
+          <div class="in-person">In-person / COD</div>
+          <div class="checkbox13"></div>
+          <b class="payment-method1">Payment Method:</b>
+        </div>
+        <div class="check-out-button" id="checkOutButton">
+          <div class="place-order-button"></div>
+          <b class="place-order">Place Order</b>
+        </div>
+        <div class="location">
+          <div class="floor">
+            <div class="bg-rectangle"></div>
+            <b class="floor-level">1F</b>
+          </div>
+          <div class="building">
+            <div class="bg-rectangle1"></div>
+            <b class="building-name">Xavier Hall</b>
+          </div>
+          <b class="location1">Location: </b>
+        </div>
+        <div class="tray">Tray</div>
+      </div>
+      <div class="footer2">
+        <div class="footer-child6"></div>
+        <b class="important-links2">Important Links</b>
+        <b class="legal-pages2">Legal Pages</b>
+        <b class="get-exclusive-deals2">Get Exclusive Deals in your Inbox</b>
+        <div class="we-wont-spam-container2">
+          we wont spam, read our
+          <span class="email-policy2">email policy</span>
+        </div>
+        <div class="footer-child7"></div>
+        <div class="privacy-policy-terms2">Privacy Policy Terms Pricing</div>
+        <div class="bilineo-copyright-20242">
+          BILINEO Copyright 2024, All Rights Reserved.
+        </div>
+        <div class="get-help-add-your-container2">
+          <p class="get-help2">Get help</p>
+          <p class="get-help2">Add your restaurant</p>
+          <p class="get-help2">Sign up to deliver</p>
+          <p class="get-help2">Create a business account</p>
+        </div>
+        <div class="terms-and-conditions-container2">
+          <p class="get-help2">Terms and conditions</p>
+          <p class="get-help2">Privacy</p>
+        </div>
+        <div class="company-490039-445-container2">
+          <p class="get-help2">Company # 490039-445, Registered with</p>
+          <p class="get-help2">House of companies.</p>
+        </div>
+        <div class="footer-child8"></div>
+        <div class="footer-child9"></div>
+        <div class="youremailgmailcom2">youremail@gmail.com</div>
+        <div class="subscribe2">Subscribe</div>
+        <img class="facebook-icon2" alt="" src="{% static 'facebook@2x.png' %}" />
+
+        <img class="instagram-icon2" alt="" src="{% static 'instagram@2x.png' %}" />
+
+        <img class="tiktok-icon2" alt="" src="{% static 'tiktok@2x.png' %}" />
+
+        <div class="bilineo4" id="bILINEOText">BILINEO.</div>
+      </div>
+      <div class="nav-bar2" data-scroll-to="navBarContainer">
+        <div class="nav-bar-inner"></div>
+        <div class="bilineo-container">
+          <div class="bilineo5" id="bILINEOText">BILINEO.</div>
+          <img class="cloche-1-icon2" alt="" src="{% static 'cloche-1@2x.png' %}" />
+
+          <div class="orders3" id="ordersText">Orders</div>
+          <div class="stores2" id="storesText">Stores</div>
+          <div class="messages2" id="messagesText">Messages</div>
+          <div class="home2" id="homeText">
+            <span>Home </span>
+            <span class="span2"> </span>
+          </div>
+          <div class="rectangle-parent4" id="groupContainer">
+            <div class="group-child29"></div>
+            <div class="kerry-oki-group">
+              <div class="kerry-oki1">Kerry Oki</div>
+              <img
+                class="male-user-icon2"
+                alt=""
+                src="{% static 'male-user@2x.png' %}"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var checkOutButton = document.getElementById("checkOutButton");
+      if (checkOutButton) {
+        checkOutButton.addEventListener("click", function (e) {
+          window.location.href = "../orders_page.html";
+        });
+      }
+
+      var bILINEOText = document.getElementById("bILINEOText");
+      if (bILINEOText) {
+        bILINEOText.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='navBarContainer']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+
+      var bILINEOText = document.getElementById("bILINEOText");
+      if (bILINEOText) {
+        bILINEOText.addEventListener("click", function (e) {
+          window.location.href = "../home_desktop.html";
+        });
+      }
+
+      var ordersText = document.getElementById("ordersText");
+      if (ordersText) {
+        ordersText.addEventListener("click", function (e) {
+          window.location.href = "../orders_page.html";
+        });
+      }
+
+      var storesText = document.getElementById("storesText");
+      if (storesText) {
+        storesText.addEventListener("click", function (e) {
+          window.location.href = "../store_page.html";
+        });
+      }
+
+      var messagesText = document.getElementById("messagesText");
+      if (messagesText) {
+        messagesText.addEventListener("click", function (e) {
+          window.location.href = "../messages_page.html";
+        });
+      }
+
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "../home_desktop.html";
+        });
+      }
+
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "../profile_page.html";
+        });
+      }
+    </script>
+  </body>
+</html>

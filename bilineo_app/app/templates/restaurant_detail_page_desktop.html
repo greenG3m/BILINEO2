@@ -1,0 +1,1027 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="initial-scale=1, width=device-width" />
+   <title>Bilineo | {{title}} </title>
+
+   <link rel="stylesheet" type="text/css" href="{% static 'global.css' %}" />
+   <link rel="stylesheet" type="text/css" href="{% static 'restaurant_detail_page_desktop.css' %}" /> 
+   <link
+     rel="stylesheet"
+     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+   />
+
+   <style>
+     @font-face {
+       font-family: "PoetsenOne";
+       src: url("PoetsenOne-Regular.ttf");
+       font-weight: 400;
+     }
+   </style>
+ </head>
+  <body>
+    <div class="restaurant-detail-page-desktop">
+      <div class="footer7">
+        <div class="footer8">
+          <div class="footer-child25"></div>
+          <b class="important-links7">Important Links</b>
+          <b class="get-exclusive-deals7">Get Exclusive Deals in your Inbox</b>
+          <div class="we-wont-spam-container7">
+            we wont spam, read our
+            <span class="email-policy7">email policy</span>
+          </div>
+          <div class="dark-blue-bottom-rectangle"></div>
+          <div class="privacy-policy-terms7">Privacy Policy Terms Pricing</div>
+          <div class="bilineo-copyright-20247">
+            BILINEO Copyright 2024, All Rights Reserved.
+          </div>
+          <div class="get-help-add-your-container7">
+            <p class="monday-8-am-800-pm">Get help</p>
+            <p class="monday-8-am-800-pm">Add your restaurant</p>
+            <p class="monday-8-am-800-pm">Sign up to deliver</p>
+            <p class="monday-8-am-800-pm">Create a business account</p>
+          </div>
+          <div class="company-490039-445-container7">
+            <p class="monday-8-am-800-pm">
+              Company # 490039-445, Registered with
+            </p>
+            <p class="monday-8-am-800-pm">House of companies.</p>
+          </div>
+          <div class="your-email-placeholder"></div>
+          <div class="subsribe">
+            <div class="blue-oval-subscribe"></div>
+            <b class="subscribe7">Subscribe</b>
+          </div>
+          <div class="youremailgmailcom7">youremail@gmail.com</div>
+          <img class="facebook-icon7" alt="" src="{% static 'facebook@2x.png' %}" />
+
+          <img class="instagram-icon7" alt="" src="{% static 'instagram@2x.png' %}" />
+
+          <img class="tiktok-icon7" alt="" src="{% static 'tiktok@2x.png' %}" />
+
+          <div class="bilineo15">BILINEO.</div>
+          <div class="terms-and-conditions-container7">
+            <p class="monday-8-am-800-pm">Terms and conditions</p>
+            <p class="monday-8-am-800-pm">Privacy</p>
+          </div>
+          <b class="legal-pages7">Legal Pages</b>
+        </div>
+      </div>
+      <div class="similar-stalls-group">
+        <div class="kaina-korean-dish">
+          <div class="similar-stall-kaina-korean-dis">
+            <div class="kaina-korean-dish-blue-cover"></div>
+            <img
+              class="kaina-korean-dish-logo"
+              alt=""
+              src="{% static 'rectangle-1311@2x.png' %}"
+            />
+
+            <b class="kaina-korean-dish1">Kaina Korean Dish</b>
+          </div>
+        </div>
+        <div class="nomo3">
+          <div class="similar-stall-nomo">
+            <div class="kaina-korean-dish-blue-cover"></div>
+            <img
+              class="kaina-korean-dish-logo"
+              alt=""
+              src="{% static 'rectangle-1312@2x.png' %}"
+            />
+
+            <b class="nomo4">NOMO</b>
+          </div>
+        </div>
+        <div class="bam-bams3">
+          <div class="similar-stall-nomo">
+            <div class="kaina-korean-dish-blue-cover"></div>
+            <img
+              class="kaina-korean-dish-logo"
+              alt=""
+              src="{% static 'rectangle-1313@2x.png' %}"
+            />
+
+            <b class="bam-bams4">Bam Bam’s</b>
+          </div>
+        </div>
+        <div class="cocina-grill4">
+          <div class="similar-stall-nomo">
+            <div class="kaina-korean-dish-blue-cover"></div>
+            <img
+              class="kaina-korean-dish-logo"
+              alt=""
+              src="{% static 'rectangle-1314@2x.png' %}"
+            />
+
+            <b class="cocina-grill5">Cocina Grill</b>
+          </div>
+        </div>
+        <div class="kapehan-nindo5">
+          <div class="similar-stall-nomo">
+            <div class="kaina-korean-dish-blue-cover"></div>
+            <img
+              class="kaina-korean-dish-logo"
+              alt=""
+              src="{% static 'rectangle-1315@2x.png' %}"
+            />
+
+            <b class="kapehan-nindo6">Kapehan Nindo</b>
+          </div>
+        </div>
+        <div class="jc-noodle-house">
+          <div class="similar-stall-nomo">
+            <div class="kaina-korean-dish-blue-cover"></div>
+            <img
+              class="kaina-korean-dish-logo"
+              alt=""
+              src="{% static 'rectangle-1316@2x.png' %}"
+            />
+
+            <b class="jc-noodle-house1">JC Noodle House</b>
+          </div>
+        </div>
+        <b class="similar-stalls">Similar Stalls</b>
+      </div>
+      <div class="customer-reviews-section">
+        <div class="customer-reviews-cover"></div>
+        <img
+          class="bottom-review-logo"
+          alt=""
+          src="{% static 'rectangle-62@2x.png' %}"
+        />
+
+        <div class="review-3">
+          <div class="frame-div">
+            <div class="frame-child"></div>
+            <div class="migoi">
+              <p class="migoi1">Migoi</p>
+            </div>
+            <img class="frame-item" alt="" src="{% static 'ellipse-32@2x.png' %}" />
+
+            <div class="star-parent">
+              <img class="star-icon" alt="" src="{% static 'star@2x.png' %}" />
+
+              <img class="star-icon1" alt="" src="{% static 'star1@2x.png' %}" />
+
+              <img class="star-icon2" alt="" src="{% static 'star2@2x.png' %}" />
+
+              <img class="star-icon3" alt="" src="{% static 'star3@2x.png' %}" />
+
+              <img class="star-icon4" alt="" src="{% static 'star4@2x.png' %}" />
+            </div>
+            <div class="frame-inner"></div>
+            <div class="th-september-2023">24th September, 2023</div>
+            <img
+              class="time-span-icon"
+              alt=""
+              src="{% static 'time-span@2x.png' %}"
+            />
+
+            <div class="the-services-efficiency1">
+              The service's efficiency was clearly superb. The line moved
+              swiftly, the staff was polite, and the food was up to McDonald's
+              standards - hot and satisfying.
+            </div>
+          </div>
+        </div>
+        <div class="review-2">
+          <div class="frame-div">
+            <div class="frame-child"></div>
+            <div class="jasper">
+              <p class="migoi1">Jasper</p>
+            </div>
+            <img class="frame-item" alt="" src="{% static 'ellipse-31@2x.png' %}" />
+
+            <div class="star-parent">
+              <img class="star-icon" alt="" src="{% static 'star@2x.png' %}" />
+
+              <img class="star-icon1" alt="" src="{% static 'star1@2x.png' %}" />
+
+              <img class="star-icon2" alt="" src="{% static 'star2@2x.png' %}" />
+
+              <img class="star-icon3" alt="" src="{% static 'star3@2x.png' %}" />
+
+              <img class="star-icon4" alt="" src="{% static 'star4@2x.png' %}" />
+            </div>
+            <div class="frame-inner"></div>
+            <div class="th-september-2023">24th September, 2023</div>
+            <img
+              class="time-span-icon"
+              alt=""
+              src="{% static 'time-span@2x.png' %}"
+            />
+
+            <div class="the-positive-aspect">
+              The positive aspect was undoubtedly the efficiency of the service.
+              The queue moved quickly, the staff was friendly, and the food was
+              up to the usual McDonald's standard – hot and satisfying.
+            </div>
+          </div>
+        </div>
+        <div class="review-1">
+          <div class="frame-div">
+            <div class="frame-child"></div>
+            <div class="the-positive-aspect1">
+              The positive aspect was undoubtedly the efficiency of the service.
+              The queue moved quickly, the staff was friendly, and the food was
+              up to the usual McDonald's standard – hot and satisfying.
+            </div>
+            <div class="charies">Charies</div>
+            <img class="frame-item" alt="" src="{% static 'ellipse-3@2x.png' %}" />
+
+            <div class="star-parent">
+              <img class="star-icon" alt="" src="{% static 'star@2x.png' %}" />
+
+              <img class="star-icon1" alt="" src="{% static 'star1@2x.png' %}" />
+
+              <img class="star-icon2" alt="" src="{% static 'star2@2x.png' %}" />
+
+              <img class="star-icon3" alt="" src="{% static 'star3@2x.png' %}" />
+
+              <img class="star-icon4" alt="" src="{% static 'star4@2x.png' %}" />
+            </div>
+            <div class="frame-inner"></div>
+            <div class="th-september-2023">24th September, 2023</div>
+            <img
+              class="time-span-icon"
+              alt=""
+              src="{% static 'time-span@2x.png' %}"
+            />
+          </div>
+        </div>
+        <div class="right-blue-arrow">
+          <div class="ellipse-group">
+            <div class="frame-child7"></div>
+            <img class="back-icon" alt="" src="{% static 'back@2x.png' %}" />
+          </div>
+        </div>
+        <img class="left-blue-arrow" alt="" src="{% static 'group-57@2x.png' %}" />
+
+        <b class="customer-reviews">Customer Reviews</b>
+      </div>
+      <div class="dco-section">
+        <div class="deliver-and-contact-cover"></div>
+        <div class="operational-times-cover"></div>
+        <div class="operational-times">
+          <div class="monday-8-am-container">
+            <span class="delivery-information-txt-container">
+              <p class="monday-8-am-800-pm">
+                <b class="monday">Monday:</b>
+                <span> 8 AM – 8:00 PM</span>
+              </p>
+              <p class="monday-8-am-800-pm">
+                <b class="monday">Tuesday: </b>
+                <span>8 AM – 8:00 PM</span>
+              </p>
+              <p class="monday-8-am-800-pm">
+                <b class="monday">Wednesday: </b>
+                <span>8 AM – 8:00 PM</span>
+              </p>
+              <p class="monday-8-am-800-pm">
+                <b class="monday">Thursday: </b>
+                <span>8 AM – 8:00 PM</span>
+              </p>
+              <p class="monday-8-am-800-pm">
+                <b class="monday">Friday: </b>
+                <span>8 AM – 8:00 PM</span>
+              </p>
+              <p class="monday-8-am-800-pm">
+                <b class="monday">Saturday: </b>
+                <span>8 AM – 8:00 PM</span>
+              </p>
+              <p class="monday-8-am-800-pm">
+                <b class="monday">Sunday:</b>
+                <span> 8 AM – 8:00 PM</span>
+              </p>
+            </span>
+          </div>
+          <div class="operational-times-with-logo">
+            <b class="operational-times1">Operational Times</b>
+            <img class="clock-icon" alt="" src="{% static 'clock1@2x.png' %}" />
+          </div>
+        </div>
+        <div class="contact-information">
+          <div class="if-you-have-container">
+            <span class="website1">
+              <span class="monday">
+                If you have allergies or other dietary restrictions, please contact the restaurant. The restaurant will provide food-specific information upon request.<br>
+                <b>Phone number</b> <br> +63919 094 5461 <br>
+                <b>Website</b><br>
+                <span class="monday">
+                  <a href="https://www.facebook.com/kopi.camsur">https://www.facebook.com/kopi.camsur</a><br>
+                  <a href="https://instagram.com/thekopiclub_">https://instagram.com/thekopiclub_</a>
+                </span>
+              </span>
+            </span>
+          </div>
+          <div class="contact-information-with-logo">
+            <img class="clock-icon" alt="Clock icon" src="{% static 'id-verified@2x.png' %}">
+            <b class="contact-information1">Contact information</b>
+          </div>
+        </div>
+      </body>
+        
+        <div class="delivery-information">
+          <div class="delivery-information-with-logo">
+            
+            <div class="delivery-information1">
+              <span class="delivery-information-txt-container">
+                <p class="monday-8-am-800-pm">
+                  <b>
+                    <span class="delivery-information3">Delivery information</span>
+                  </b>
+                </p>
+                <p class="monday-8-am-800-pm-tuesday">
+                  <span>
+                    <span class="website1">
+                      <b>Monday: </b>
+                      <span class="monday">8 AM – 8:00 PM</span><br>
+                      <b class="monday">Tuesday:</b>
+                      <span class="monday"> 8 AM – 8:00 PM</span><br>
+                      <b class="monday">Wednesday: </b>
+                      <span class="monday">8 AM – 8:00 PM</span><br>
+                      <b class="monday">Thursday: </b>
+                      <span class="monday">8 AM – 8:00 PM</span><br>
+                      <b class="monday">Friday: </b>
+                      <span class="monday">8 AM – 8:00 PM</span><br>
+                      <b class="monday">Saturday: </b>
+                      <span class="monday">8 AM – 8:00 PM</span><br>
+                      <b>Sunday: CLOSED</b><br>
+                      <b>Estimated time until delivery: </b>
+                      <span class="monday">5 MINS</span>
+                    </span>
+                  </span>
+                </p>
+                <p class="monday-8-am-800-pm">
+                  <span>
+                    <span class="website1">
+
+                    </span>
+                  </span>
+                </p>
+              </span>
+            </div>
+            <img class="delivery-information-logo" alt="" src="{% static 'tracking1@2x.png' %}"/>
+          </div>
+        </div>
+      </div>
+      <div class="non-coffee-menu-group">
+        <div class="dark-choco-matcha">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-4632@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <b class="php-130">PHP 130</b>
+          <div class="all-cheese-corn">Dark Choco Matcha</div>
+        </div>
+        <div class="milky-choco-hazelnut">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-4630@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <b class="php-998">PHP 99</b>
+          <div class="milky-choco-hazelnut1">Milky Choco Hazelnut</div>
+        </div>
+        <div class="strawberry-lychee">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-4628@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <b class="php-999">PHP 99</b>
+          <div class="strawberry-lychee1">Strawberry Lychee</div>
+        </div>
+        <div class="berry-pink-latte">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-4631@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <b class="php-130">PHP 99</b>
+          <div class="milky-choco-hazelnut1">Berry Pink Latte</div>
+        </div>
+        <div class="iced-milky-choco">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-4629@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <b class="php-130">PHP 85</b>
+          <div class="iced-milky-choco1">Iced Milky Choco</div>
+        </div>
+        <div class="choco-oreo">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-4627@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <b class="php-9911">PHP 99</b>
+          <div class="choco-oreo1">Choco Oreo</div>
+        </div>
+        <b class="non-coffee">NON COFFEE</b>
+      </div>
+      <div class="hot-menu-group">
+        <div class="strawberry-lychee">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-4622@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <b class="php-55">PHP 55</b>
+          <div class="yuja-tea1">Yuja Tea</div>
+        </div>
+        <div class="berry-pink-latte">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-4624@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon7" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <b class="php-130">PHP 55</b>
+          <div class="hot-chocolate1">Hot Chocolate</div>
+        </div>
+        <div class="iced-milky-choco">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-4623@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <b class="php-130">PHP 55</b>
+          <div class="milky-choco-hazelnut1">Americana</div>
+        </div>
+        <div class="choco-oreo">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-48@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <b class="php-130">PHP 55</b>
+          <div class="drip-coffee1">Drip Coffee</div>
+        </div>
+        <b class="hot">HOT</b>
+      </div>
+      <div class="cold-menu-group">
+        <div class="dark-choco-matcha">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-4617@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <b class="php-9912">PHP 99</b>
+          <div class="cheesecake-latte2">Cheesecake Latte</div>
+        </div>
+        <div class="choco-hazelnut-latte">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-4615@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <b class="php-130">PHP 105</b>
+          <div class="milky-choco-hazelnut1">Choco Hazelnut Latte</div>
+        </div>
+        <div class="strawberry-lychee">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-4613@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <div class="karamel-macchiato1">
+            <p class="monday-8-am-800-pm">Karamel<br>Macchiato</p>
+          </div>
+          <b class="php-65">PHP 65 / PHP 99</b>
+        </div>
+        <div class="spanish-latte">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-4616@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <b class="php-1051">PHP 105</b>
+          <div class="all-cheese-corn">Spanish Latte</div>
+        </div>
+        <div class="iced-milky-choco">
+          <div class="dark-choco-matcha-cover"></div>
+          <div class="vanilla-almond-latte1">Vanilla Almond Latte</div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-4614@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <b class="php-65">PHP 99</b>
+        </div>
+        <div class="choco-oreo">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-4612@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <div class="long-sweet-black1">Long Sweet Black</div>
+          <b class="php-65">PHP 75</b>
+        </div>
+        <b class="hot">COLD</b>
+      </div>
+      <div class="snacks-menu-group">
+        <div class="bacon-corn-dog">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-465@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <b class="php-130">PHP 55</b>
+          <div class="all-cheese-corn">Bacon Corn Dog</div>
+        </div>
+        <div class="choco-hazelnut-latte">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-463@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <b class="php-130">PHP 65</b>
+          <div class="all-cheese-corn">All Cheese Corn Dog</div>
+        </div>
+        <div class="strawberry-lychee">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-461@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon7" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <div class="potato-fries-corn-container">
+            <p class="monday-8-am-800-pm">Potato Fries</p>
+            <p class="monday-8-am-800-pm">Corn Dog</p>
+          </div>
+          <b class="php-65">PHP 60</b>
+        </div>
+        <div class="berry-pink-latte">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-464@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <div class="chicken-empanada1">Chicken Empanada</div>
+          <b class="php-354">PHP 35</b>
+        </div>
+        <div class="hashbrown">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-462@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <b class="php-30">PHP 30</b>
+          <div class="all-cheese-corn">Hashbrown</div>
+        </div>
+        <div class="choco-oreo">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-46@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha">
+            <div class="add-icon-cover"></div>
+            <img class="add-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </div>
+          <div class="classic-corn-dog1">Classic Corn Dog</div>
+          <b class="php-40">PHP 40</b>
+        </div>
+        <b class="snacks">SNACKS</b>
+      </div>
+      <div class="meals-menu-group">
+        <div class="dark-choco-matcha">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-4611@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha"></div>
+          <button class="plus-button" type="button" method="POST" foodId="6" storeId="2"> <!--Pork Tocino-->
+            <img class="plus-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </button>
+          <b class="php-59">PHP 59</b>
+          <div class="pork-tocino1">Pork Tocino</div>
+        </div>
+        <div class="milky-choco-hazelnut">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-469@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha"></div>
+          <button class="plus-button" type="button" method="POST" foodId="5" storeId="2">
+            <img class="plus-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </button>
+          <b class="php-591">PHP 59</b>
+          <div class="all-cheese-corn">Pork Tapa</div>
+        </div>
+        <div class="chicken-nuggets">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-467@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha"></div>
+          <button class="plus-button" type="button" method="POST" foodId="4" storeId="2">
+            <img class="plus-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </button>
+          <div class="chicken-nuggets1">Chicken Nuggets</div>
+          <b class="php-65">PHP 59</b>
+        </div>
+        <div class="berry-pink-latte">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-4610@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha"></div>
+          <button class="plus-button" type="button" method="POST" foodId="3" storeId="2">
+            <img class="plus-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </button>
+          <b class="php-593">PHP 59</b>
+          <div class="spamsilog1">Spamsilog</div>
+        </div>
+        <div class="iced-milky-choco">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-468@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha"></div>
+          <button class="plus-button" type="button" method="POST" foodId="2" storeId="2">
+            <img class="plus-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </button>
+          <b class="php-49">PHP 49</b>
+          <div class="all-cheese-corn">Burger Steak</div>
+        </div>
+        <div class="lumpia-shanghai">
+          <div class="dark-choco-matcha-cover"></div>
+          <img
+            class="dark-choco-matcha-logo"
+            alt=""
+            src="{% static 'rectangle-466@2x.png' %}"
+          />
+
+          <div class="add-icon-dark-choco-matcha"></div>
+          <button class="plus-button" type="button" method="POST" foodId="1" storeId="2">
+            <img class="plus-icon" alt="" src="{% static 'plus@2x.png' %}" />
+          </button>
+          <div class="vanilla-almond-latte1">Lumpia Shanghai</div>
+          <b class="php-65">PHP 45</b>
+        </div>
+        <b class="meals">MEALS</b>
+      </div>
+      <div class="sub-navigation-bar"></div>
+      <div class="hot-drinks-cover">
+        <img
+          class="cold-drinks-cover-child"
+          alt=""
+          src="{% static 'rectangle-67.svg' %}"
+        />
+
+        <b class="hot-drinks">Hot Drinks</b>
+      </div>
+      <div class="non-coffee-cover">
+        <div class="non-coffee-cover1">
+          <img
+            class="non-coffee-cover-child"
+            alt=""
+            src="{% static 'rectangle-67.svg' %}"
+          />
+        </div>
+        <b class="non-coffee1">Non Coffee</b>
+      </div>
+      <div class="cold-drinks-cover">
+        <img
+          class="cold-drinks-cover-child"
+          alt=""
+          src="{% static 'rectangle-67.svg' %}"
+        />
+
+        <b class="cold-drinks">Cold Drinks</b>
+      </div>
+      <div class="snacks-cover">
+        <img class="snacks-cover-icon" alt="" src="{% static 'rectangle-12.svg' %}" />
+
+        <b class="snacks1">Snacks</b>
+      </div>
+      <div class="meals-cover">
+        <img class="snacks-cover-icon" alt="" src="{% static 'rectangle-12.svg' %}" />
+
+        <b class="meals1">Meals</b>
+      </div>
+      <div class="offers-cover">
+        <img class="snacks-cover-icon" alt="" src="{% static 'rectangle-12.svg' %}" />
+
+        <b class="offers">Offers</b>
+      </div>
+      <div class="search-bar">
+        <div class="search-from-menu">Search from menu...</div>
+        <div class="search-placeholder"></div>
+        <img
+          class="search-logo-icon"
+          alt=""
+          src="{% static 'search-more@2x.png' %}"
+        />
+      </div>
+      <b class="all-offers-from">All Offers from The Kopi Club</b>
+      <div class="store-cover">
+        <div class="cover-for-store-title">
+          <div class="cover-for-store-title">
+            <div class="cover-for-store-title">
+              <div class="cover-for-title-store-child"></div>
+              <div class="cover-for-title-store-child"></div>
+            </div>
+          </div>
+        </div>
+        <div class="the-kopi-club4">The Kopi Club</div>
+        <div class="open-until-8pm">
+          <div class="open-until-8pm-parent">
+            <div class="open-until-8pm-parent">
+              <div class="open-until-8pm-parent">
+                <div class="open-until-8pm-child"></div>
+                <div class="open-until-800">Open until 8:00 PM</div>
+              </div>
+              <img class="clock-icon1" alt="" src="{% static 'clock@2x.png' %}" />
+            </div>
+          </div>
+        </div>
+        <div class="minimum-order">
+          <div class="minimum-order-60">Minimum Order: 60 PHP</div>
+          <div class="minimum-order-child"></div>
+          <img
+            class="order-completed-icon"
+            alt=""
+            src="{% static 'order-completed@2x.png' %}"
+          />
+        </div>
+        <div class="delivery-time">
+          <div class="delivery-time1"></div>
+          <div class="delivery-in-3-5-minutes-parent">
+            <div class="delivery-in-3">Delivery in 3 - 5 Minutes</div>
+            <img
+              class="motocross-icon"
+              alt=""
+              src="{% static 'motocross@2x.png' %}"
+            />
+          </div>
+        </div>
+        <img
+          class="store-cover-sample"
+          alt=""
+          src="{% static 'rectangle-44@2x.png' %}"
+        />
+
+        <img class="reviews-icon" alt="" src="{% static 'rectangle-64@2x.png' %}" />
+      </div>
+      <div class="nav-bar7">
+        <div class="yellow-cover-for-navbar"></div>
+        <div class="nav-bar-menu">
+          <div class="bilineo16" id="bILINEOText">BILINEO.</div>
+          <img
+            class="bell-icon"
+            alt=""
+            src="{% static 'cloche-1@2x.png' %}"
+            id="bellImage"
+          />
+
+          <div class="orders8" id="ordersText">Orders</div>
+          <div class="stores7" id="storesText">Stores</div>
+          <div class="messages8" id="messagesText">Messages</div>
+          <div class="home7" id="homeText">
+            <span>Home </span>
+            <span class="span7"> </span>
+          </div>
+          <div class="profile-name">
+            <div class="profile-name-inner">
+              <div class="profile-name-inner">
+                <div class="profile-name-inner">
+                  <div class="profile-name-child"></div>
+                  <div class="kerry-oki6">Kerry Oki</div>
+                  <img
+                    class="user-icon"
+                    alt=""
+                    src="{% static 'male-user@2x.png' %}"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var bILINEOText = document.getElementById("bILINEOText");
+      if (bILINEOText) {
+        bILINEOText.addEventListener("click", function (e) {
+          window.location.href = "../home_desktop.html";
+        });
+      }
+
+      var bellImage = document.getElementById("bellImage");
+      if (bellImage) {
+        bellImage.addEventListener("click", function (e) {
+          window.location.href = "../tray_page.html";
+        });
+      }
+
+      var ordersText = document.getElementById("ordersText");
+      if (ordersText) {
+        ordersText.addEventListener("click", function (e) {
+          window.location.href = "../orders_page.html";
+        });
+      }
+
+      var storesText = document.getElementById("storesText");
+      if (storesText) {
+        storesText.addEventListener("click", function (e) {
+          window.location.href = "../store_page.html";
+        });
+      }
+
+      var messagesText = document.getElementById("messagesText");
+      if (messagesText) {
+        messagesText.addEventListener("click", function (e) {
+          window.location.href = "../messages_page.html";
+        });
+      }
+
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "../home_desktop.html";
+        });
+      }
+
+      // Select all elements with the class "plus-button"
+      var plusButtons = document.getElementsByClassName("plus-button");
+      for (var i = 0; i < plusButtons.length; i++) {
+      plusButtons[i].addEventListener("click", function () {
+
+         const storeId = this.getAttribute("storeId");
+         const foodId = this.getAttribute("foodId");
+
+         fetch('./add_food/', {  
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ store_id: storeId, food_id: foodId }),
+         })
+         .then(response => response.json())
+         .then(data => {
+            console.log('Success:', data);
+            if (data.status === 'success') {
+                alert('Food added successfully!');
+            } else {
+                alert(`Error: ${data.message}`);
+            }
+         })
+         .catch(error => console.error('Error:', error));
+         });
+      }
+
+
+      
+      
+
+
+    </script>
+  </body>
+</html>

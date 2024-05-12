@@ -1,0 +1,185 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="initial-scale=1, width=device-width" />
+   <title>Bilineo | {{title}} </title>
+
+   <link rel="stylesheet" type="text/css" href="{% static 'global.css' %}" />
+   <link rel="stylesheet" type="text/css" href="{% static 'login_page.css' %}" /> 
+   <link
+     rel="stylesheet"
+     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+   />
+
+   <style>
+     @font-face {
+       font-family: "PoetsenOne";
+       src: url("PoetsenOne-Regular.ttf");
+       font-weight: 400;
+     }
+   </style>
+ </head>
+  <body>
+    <div class="login-page">
+      <div class="footer5">
+        <div class="footer-child18"></div>
+        <b class="important-links5">Important Links</b>
+        <b class="legal-pages4">Legal Pages</b>
+        <b class="get-exclusive-deals5">Get Exclusive Deals in your Inbox</b>
+        <div class="we-wont-spam-container5">
+          we wont spam, read our
+          <span class="email-policy5">email policy</span>
+        </div>
+        <div class="footer-child19"></div>
+        <div class="privacy-policy-terms5">Privacy Policy Terms Pricing</div>
+        <div class="bilineo-copyright-20245">
+          BILINEO Copyright 2024, All Rights Reserved.
+        </div>
+        <div class="get-help-add-your-container5">
+          <p class="get-help5">Get help</p>
+          <p class="get-help5">Add your restaurant</p>
+          <p class="get-help5">Sign up to deliver</p>
+          <p class="get-help5">Create a business account</p>
+        </div>
+        <div class="terms-and-conditions-container5">
+          <p class="get-help5">Terms and conditions</p>
+          <p class="get-help5">Privacy</p>
+        </div>
+        <div class="company-490039-445-container5">
+          <p class="get-help5">Company # 490039-445, Registered with</p>
+          <p class="get-help5">House of companies.</p>
+        </div>
+        <div class="footer-child20"></div>
+        <div class="footer-child21"></div>
+        <div class="youremailgmailcom5">youremail@gmail.com</div>
+        <div class="subscribe6">Subscribe</div>
+        <img class="facebook-icon5" alt="" src="{% static 'facebook@2x.png' %}" />
+
+        <img class="instagram-icon5" alt="" src="{% static 'instagram@2x.png' %}" />
+
+        <img class="tiktok-icon5" alt="" src="{% static 'tiktok@2x.png' %}" />
+
+        <div class="bilineo10" id="bILINEOText">BILINEO.</div>
+      </div>
+      <div class="group-parent">
+        <div class="welcome-to-parent">
+          <b class="welcome-to">Welcome to </b>
+          <b class="bilineo11">Bilineo</b>
+          <div class="group-child42"></div>
+          <div class="group-child43" id="rectangle1"></div>
+          <div class="group-child44"></div>
+          <div class="sign-in">Sign In</div>
+          <div class="continue">Continue</div>
+          <div class="signup">Signup</div>
+          <div class="group-child45"></div>
+          <img class="image-2-icon" alt="" src="{% static 'image-2@2x.png' %}" />
+
+          <div class="group-child46"></div>
+          <div class="email-address">Email Address</div>
+          <div class="or-continue-with">Or Continue With</div>
+          <img class="line-icon" alt="" />
+
+          <img class="group-child47" alt="" />
+
+          <img class="group-child48" alt="" src="{% static 'group-94.svg' %}" />
+        </div>
+        <div class="trendsgboxadnueduph1">trends@gbox.adnu.edu.ph</div>
+      </div>
+      <div class="nav-bar5" data-scroll-to="navBarContainer">
+        <div class="nav-bar-child3"></div>
+        <div class="bilineo-parent3">
+          <div class="bilineo12" id="bILINEOText">BILINEO.</div>
+          <img
+            class="cloche-1-icon5"
+            alt=""
+            src="{% static 'cloche-1@2x.png' %}"
+            id="cloche1Image"
+          />
+
+          <div class="orders6" id="ordersText">Orders</div>
+          <div class="stores5" id="storesText">Stores</div>
+          <div class="messages5" id="messagesText">Messages</div>
+          <div class="home5" id="homeText">
+            <span>Home </span>
+            <span class="span5"> </span>
+          </div>
+          <div class="rectangle-parent56">
+            <div class="group-child49"></div>
+            <div class="loginsignup-group">
+              <div class="loginsignup1">Login/Signup</div>
+              <img
+                class="male-user-icon5"
+                alt=""
+                src="{% static 'male-user@2x.png' %}"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var bILINEOText = document.getElementById("bILINEOText");
+      if (bILINEOText) {
+        bILINEOText.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='navBarContainer']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var rectangle1 = document.getElementById("rectangle1");
+      if (rectangle1) {
+        rectangle1.addEventListener("click", function (e) {
+          window.location.href = "../profile_page.html";
+        });
+      }
+      
+      var bILINEOText = document.getElementById("bILINEOText");
+      if (bILINEOText) {
+        bILINEOText.addEventListener("click", function (e) {
+          window.location.href = "../home_desktop.html";
+        });
+      }
+      
+      var cloche1Image = document.getElementById("cloche1Image");
+      if (cloche1Image) {
+        cloche1Image.addEventListener("click", function (e) {
+          window.location.href = "../tray_page.html";
+        });
+      }
+      
+      var ordersText = document.getElementById("ordersText");
+      if (ordersText) {
+        ordersText.addEventListener("click", function (e) {
+          window.location.href = "../orders_page.html";
+        });
+      }
+      
+      var storesText = document.getElementById("storesText");
+      if (storesText) {
+        storesText.addEventListener("click", function (e) {
+          window.location.href = "../store_page.html";
+        });
+      }
+      
+      var messagesText = document.getElementById("messagesText");
+      if (messagesText) {
+        messagesText.addEventListener("click", function (e) {
+          window.location.href = "../messages_page.html";
+        });
+      }
+      
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "../home_desktop.html";
+        });
+      }
+      </script>
+  </body>
+</html>

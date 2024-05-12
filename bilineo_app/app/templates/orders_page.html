@@ -1,0 +1,244 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="initial-scale=1, width=device-width" />
+   <title>Bilineo | {{title}} </title>
+
+   <link rel="stylesheet" type="text/css" href="{% static 'global.css' %}" />
+   <link rel="stylesheet" type="text/css" href="{% static 'orders_page.css' %}" /> 
+   <link
+     rel="stylesheet"
+     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+   />
+
+   <style>
+     @font-face {
+       font-family: "PoetsenOne";
+       src: url("PoetsenOne-Regular.ttf");
+       font-weight: 400;
+     }
+   </style>
+ </head>
+  <body>
+    <div class="orders-page">
+      <div class="cancel-order-button-parent">
+        <div class="cancel-order-button" id="cancelOrderButton">
+          <div class="button"></div>
+          <b class="cancel-order">Cancel Order</b>
+        </div>
+        <div class="tray-items-2">
+          <img
+            class="bg-rectangle-icon"
+            alt=""
+            src="{% static 'bg-rectangle1.svg' %}"
+          />
+
+          <div class="subtotal">
+            <b class="php-189">Php. 189</b>
+            <div class="subtotal1">Subtotal</div>
+          </div>
+          <b class="php-20">Php. 20</b>
+          <div class="food-item-2">
+            <b class="php-70">Php. 70</b>
+            <div class="x2">x2</div>
+            <div class="php-35">Php. 35</div>
+            <div class="food-item-21">Food Item #2</div>
+          </div>
+          <div class="food-item-1">
+            <b class="php-70">Php. 99</b>
+            <div class="x2">x1</div>
+            <div class="php-35">Php. 99</div>
+            <div class="food-item-21">Food Item #1</div>
+          </div>
+          <b class="shop-2"> SHOP #2</b>
+          <div class="delivery-option">
+            <div class="fg-rectangle"></div>
+            <div class="checkbox"></div>
+            <div class="checkbox1"></div>
+            <div class="delivery">Delivery</div>
+            <div class="pick-up">Pick Up</div>
+            <div class="delivery-option-child"></div>
+            <div class="min">5 min.</div>
+          </div>
+        </div>
+        <div class="tray-items-1">
+          <img
+            class="bg-rectangle-icon1"
+            alt=""
+            src="{% static 'bg-rectangle2.svg' %}"
+          />
+
+          <div class="subtotal2">
+            <b class="php-189">Php. 169</b>
+            <div class="subtotal1">Subtotal</div>
+          </div>
+          <div class="food-item-22">
+            <b class="php-701">Php. 70</b>
+            <div class="x21">x2</div>
+            <div class="php-351">Php. 35</div>
+            <div class="food-item-23">Food Item #2</div>
+            <div class="order-status">
+              <div class="order-status-child"></div>
+              <b class="order-status1">On The Way</b>
+            </div>
+          </div>
+          <div class="food-item-12">
+            <b class="php-992">Php. 99</b>
+            <div class="x11">x1</div>
+            <div class="php-993">Php. 99</div>
+            <div class="food-item-13">Food Item #1</div>
+            <div class="order-status2">
+              <div class="order-status-item"></div>
+              <b class="order-status1">Ready For Pick-up</b>
+            </div>
+          </div>
+          <b class="shop-1"> SHOP #1</b>
+          <div class="delivery-option1">
+            <div class="fg-rectangle"></div>
+            <div class="checkbox2"></div>
+            <div class="checkbox3"></div>
+            <div class="delivery">Delivery</div>
+            <div class="pick-up">Pick Up</div>
+            <div class="delivery-option-child"></div>
+            <div class="eta">ETA</div>
+          </div>
+        </div>
+        <div class="orders1">Orders</div>
+      </div>
+      <div class="footer1">
+        <div class="footer-child2"></div>
+        <b class="important-links1">Important Links</b>
+        <b class="legal-pages1">Legal Pages</b>
+        <b class="get-exclusive-deals1">Get Exclusive Deals in your Inbox</b>
+        <div class="we-wont-spam-container1">
+          we wont spam, read our
+          <span class="email-policy1">email policy</span>
+        </div>
+        <div class="footer-child3"></div>
+        <div class="privacy-policy-terms1">Privacy Policy Terms Pricing</div>
+        <div class="bilineo-copyright-20241">
+          BILINEO Copyright 2024, All Rights Reserved.
+        </div>
+        <div class="get-help-add-your-container1">
+          <p class="get-help1">Get help</p>
+          <p class="get-help1">Add your restaurant</p>
+          <p class="get-help1">Sign up to deliver</p>
+          <p class="get-help1">Create a business account</p>
+        </div>
+        <div class="terms-and-conditions-container1">
+          <p class="get-help1">Terms and conditions</p>
+          <p class="get-help1">Privacy</p>
+        </div>
+        <div class="company-490039-445-container1">
+          <p class="get-help1">Company # 490039-445, Registered with</p>
+          <p class="get-help1">House of companies.</p>
+        </div>
+        <div class="footer-child4"></div>
+        <div class="footer-child5"></div>
+        <div class="youremailgmailcom1">youremail@gmail.com</div>
+        <div class="subscribe1">Subscribe</div>
+        <img class="facebook-icon1" alt="" src="{% static 'facebook@2x.png' %}" />
+
+        <img class="instagram-icon1" alt="" src="{% static 'instagram@2x.png' %}" />
+
+        <img class="tiktok-icon1" alt="" src="{% static 'tiktok@2x.png' %}" />
+
+        <div class="bilineo2" id="bILINEOText">BILINEO.</div>
+      </div>
+      <div class="nav-bar1" data-scroll-to="navBarContainer">
+        <div class="nav-bar-item"></div>
+        <div class="bilineo-group">
+          <div class="bilineo3" id="bILINEOText">BILINEO.</div>
+          <div class="orders2">Orders</div>
+          <div class="stores1" id="storesText">Stores</div>
+          <div class="messages1" id="messagesText">Messages</div>
+          <div class="home1" id="homeText">
+            <span>Home </span>
+            <span class="span1"> </span>
+          </div>
+          <div class="rectangle-parent3" id="groupContainer">
+            <div class="group-child28"></div>
+            <div class="kerry-oki-parent">
+              <div class="kerry-oki">Kerry Oki</div>
+              <img
+                class="male-user-icon1"
+                alt=""
+                src="{% static 'male-user@2x.png' %}"
+              />
+            </div>
+          </div>
+          <img
+            class="cloche-1-icon1"
+            alt=""
+            src="{% static 'cloche-1@2x.png' %}"
+            id="cloche1Image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var cancelOrderButton = document.getElementById("cancelOrderButton");
+      if (cancelOrderButton) {
+        cancelOrderButton.addEventListener("click", function (e) {
+          window.location.href = "../tray_page.html";
+        });
+      }
+      
+      var bILINEOText = document.getElementById("bILINEOText");
+      if (bILINEOText) {
+        bILINEOText.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='navBarContainer']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var bILINEOText = document.getElementById("bILINEOText");
+      if (bILINEOText) {
+        bILINEOText.addEventListener("click", function (e) {
+          window.location.href = "../home_desktop.html";
+        });
+      }
+      
+      var storesText = document.getElementById("storesText");
+      if (storesText) {
+        storesText.addEventListener("click", function (e) {
+          window.location.href = "../store_page.html";
+        });
+      }
+      
+      var messagesText = document.getElementById("messagesText");
+      if (messagesText) {
+        messagesText.addEventListener("click", function (e) {
+          window.location.href = "../messages_page.html";
+        });
+      }
+      
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "../home_desktop.html";
+        });
+      }
+      
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "../profile_page.html";
+        });
+      }
+      
+      var cloche1Image = document.getElementById("cloche1Image");
+      if (cloche1Image) {
+        cloche1Image.addEventListener("click", function (e) {
+          window.location.href = "../tray_page.html";
+        });
+      }
+      </script>
+  </body>
+</html>
